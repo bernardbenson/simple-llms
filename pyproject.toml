@@ -1,7 +1,11 @@
 [project]
 name = "simple-llms"
 version = "0.1.0"
-description = "Add your description here"
+description = "Educational LLM animations using Manim"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "manim>=0.18.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+]
